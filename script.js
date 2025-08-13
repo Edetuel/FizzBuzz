@@ -2,12 +2,12 @@ let answer = parseInt(prompt("Please input the number you would like to FizzBuzz
 
 for (let i = 1; i <= answer; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-        console.log("FizzBuzz");
+        alert("FizzBuzz");
     } else if (i % 3 === 0) {
-        console.log("Fizz");
+        alert("Fizz");
     } else if (i % 5 === 0) {
-        console.log("Buzz");
+        alert("Buzz");
     } else {
-        console.log(i);
+        alert(i);
     }
 }
